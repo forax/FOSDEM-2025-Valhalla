@@ -71,7 +71,7 @@ public class MandelbrotSet {
     return new Color(value, value, value).getRGB();
   }
 
-  public static void main(String[] args) throws IOException {
+  void main() throws IOException {
     var width = 800;
     var height = 600;
     var xMin = -2.0;

@@ -1,6 +1,6 @@
 package com.github.forax.valhalla;
 
-/*value*/ record Complex(double re, double im) {
+public /*value*/ record Complex(double re, double im) {
   public Complex add(Complex other) {
     return new Complex(this.re + other.re, this.im + other.im);
   }
