@@ -104,11 +104,13 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <release>24</release>
-                    <!-- source>24</source -->
-                    <!-- target>24</target -->
+                    <!-- release>24</release -->
+                    <source>24</source>
+                    <target>24</target>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
+                        <arg>--add-exports=java.base/jdk.internal.vm.annotation=ALL-UNNAMED</arg>
+                        <arg>--add-exports=java.base/jdk.internal.value=ALL-UNNAMED</arg>
                     </compilerArgs>
                     <annotationProcessorPaths>
                         <path>

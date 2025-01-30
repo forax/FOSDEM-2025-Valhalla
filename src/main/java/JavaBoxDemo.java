@@ -15,6 +15,8 @@ static /*value*/ class JavaBox {
   }
 }
 
+// export JAVA_HOME=/Users/forax/valhalla-live/valhalla/build/macosx-aarch64-server-release/images/jdk/
+// $JAVA_HOME/bin/java --enable-preview src/main/java/JavaBoxDemo.java
 void main() {
   var complex = new Complex(3.0, 4.0);
   var box = new JavaBox(complex);

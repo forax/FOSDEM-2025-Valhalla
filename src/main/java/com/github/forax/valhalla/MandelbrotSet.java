@@ -71,6 +71,8 @@ public class MandelbrotSet {
     return new Color(value, value, value).getRGB();
   }
 
+// export JAVA_HOME=/Users/forax/valhalla-live/valhalla/build/macosx-aarch64-server-release/images/jdk/
+// $JAVA_HOME/bin/java --enable-preview -cp target/fosdem-2025-valhalla-1.0.jar com.github.forax.valhalla.MandelbrotSet
   void main() throws IOException {
     var width = 800;
     var height = 600;

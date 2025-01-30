@@ -40,7 +40,7 @@ public class ScalarizationBench {
   double yMin = -1.5;
   double yMax = 1.5;
 
-  @Benchmark
+  //@Benchmark
   public int computeMandelbrot() {
     var sum = 0;
     for (int row = 0; row < height; row++) {
@@ -53,7 +53,7 @@ public class ScalarizationBench {
     return sum;
   }
 
-  @Benchmark
+  //@Benchmark
   public int computeMandelbrotPrimitive() {
     var sum = 0;
     for (int row = 0; row < height; row++) {
